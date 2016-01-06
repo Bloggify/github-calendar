@@ -63,6 +63,14 @@ Have an idea? Found a bug? See [how to contribute][contributing].
 ## Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
+## Related
+
+ - [`github-calendar-parser`](https://github.com/IonicaBizau/github-calendar-parser)–Parses the GitHub calendar SVG into JSON.
+ - [`github-calendar-legend`](https://github.com/IonicaBizau/github-calendar-legend)–The GitHub contributions calendar colors.
+ - [`ghcal`](https://github.com/IonicaBizau/ghcal)–See the GitHub contributions calendar of a user in the command line.
+ - [`github-stats`](https://github.com/IonicaBizau/github-stats)–Visualize stats about GitHub users and projects in your terminal.
+ - [...and other goodies...](https://github.com/search?q=user%3AIonicaBizau+github)
+
 ## License
 
 [MIT][license] © [Ionică Bizău][website]

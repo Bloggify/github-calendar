@@ -75,6 +75,15 @@
         "p": "[![](http://i.imgur.com/S1h8XoB.jpg)](http://ionicabizau.github.io/github-calendar/example)"
       }
     ],
-    "title": "github-calendar.js"
+    "title": "github-calendar.js",
+    "related": {
+      "ul": [
+        "[`github-calendar-parser`](https://github.com/IonicaBizau/github-calendar-parser)–Parses the GitHub calendar SVG into JSON.",
+        "[`github-calendar-legend`](https://github.com/IonicaBizau/github-calendar-legend)–The GitHub contributions calendar colors.",
+        "[`ghcal`](https://github.com/IonicaBizau/ghcal)–See the GitHub contributions calendar of a user in the command line.",
+        "[`github-stats`](https://github.com/IonicaBizau/github-stats)–Visualize stats about GitHub users and projects in your terminal.",
+        "[...and other goodies...](https://github.com/search?q=user%3AIonicaBizau+github)"
+      ]
+    }
   }
 }
