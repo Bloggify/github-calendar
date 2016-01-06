@@ -1,0 +1,31 @@
+{
+  "name": "github-calendar-embed",
+  "version": "1.0.0",
+  "description": "Embed your GitHub contributions calendar anywhere.",
+  "main": "lib/index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "browserify lib/index.js -o dist/gh-cal-embed.js -s GitHubCalendar"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/github-calendar-embed.git"
+  },
+  "keywords": [
+    "github",
+    "calendar",
+    "embed"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/github-calendar-embed/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/github-calendar-embed#readme",
+  "dependencies": {
+    "github-calendar-parser": "^1.0.0"
+  }
+}
