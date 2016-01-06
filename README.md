@@ -33,6 +33,8 @@ Check out the [`dist`](/dist) directory to download the needed files and include
 </script>
 ```
 
+[Here](http://jsbin.com/wewihogevu/edit?html,output) you can see this example in action.
+
 ## Documentation
 
 ### `GitHubCalendar(container, username, options)`
