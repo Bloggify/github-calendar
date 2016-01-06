@@ -1,5 +1,5 @@
 {
-  "name": "github-calendar-embed",
+  "name": "github-calendar",
   "version": "1.0.0",
   "description": "Embed your GitHub contributions calendar anywhere.",
   "main": "lib/index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/IonicaBizau/github-calendar-embed.git"
+    "url": "git+ssh://git@github.com/IonicaBizau/github-calendar.git"
   },
   "keywords": [
     "github",
@@ -22,10 +22,45 @@
   "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/IonicaBizau/github-calendar-embed/issues"
+    "url": "https://github.com/IonicaBizau/github-calendar/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/github-calendar-embed#readme",
+  "homepage": "https://github.com/IonicaBizau/github-calendar#readme",
   "dependencies": {
     "github-calendar-parser": "^1.0.0"
+  },
+  "blah": {
+      "example": {
+          "code": {
+              "language": "html",
+              "content": [
+                "<!-- Prepare a container for your calendar. -->",
+                "<script",
+                "  src=\"https://cdn.rawgit.com/IonicaBizau/github-calendar/master/dist/github-calendar.min.js\"",
+                "</script>",
+                "",
+                "<!-- Optionally, include the theme (if you don't want to struggleto write the CSS) -->",
+                "<link",
+                "  rel=\"stylesheet\"",
+                "  href=\"https://cdn.rawgit.com/IonicaBizau/github-calendar/master/dist/github-calendar.css\"",
+                "/>",
+                "",
+                "<!-- Prepare a container for your calendar. -->",
+                "<div class=\"calendar\">",
+                "    <!-- Loading stuff -->",
+                "    Loading the data just for you.",
+                "</div>",
+                "",
+                "<script>",
+                "    new GitHubCalendar(\".calendar\", \"your-username\");",
+                "</script>"
+              ]
+          }
+      },
+      "thanks": {
+          "ul": [
+              "Big thanks to [**@izuzak**](https://github.com/izuzak) for creating the [urlreq](https://github.com/izuzak/urlreq) project–the default proxy used by this library. :cake:",
+              "Part of the CSS code was taken from the GitHub profile page to offer the same experience. :art:"
+          ]
+      }
   }
 }
