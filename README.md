@@ -16,7 +16,7 @@ Check out the [`dist`](/dist) directory to download the needed files and include
   src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"
 </script>
 
-<!-- Optionally, include the theme (if you don't want to struggleto write the CSS) -->
+<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
 <link
   rel="stylesheet"
   href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"
@@ -29,7 +29,7 @@ Check out the [`dist`](/dist) directory to download the needed files and include
 </div>
 
 <script>
-    new GitHubCalendar(".calendar", "your-username");
+    GitHubCalendar(".calendar", "your-username");
 </script>
 ```
 
