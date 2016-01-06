@@ -29,42 +29,47 @@
     "github-calendar-parser": "^1.0.0"
   },
   "blah": {
-      "example": {
-          "code": {
-              "language": "html",
-              "content": [
-                "<!-- Prepare a container for your calendar. -->",
-                "<script",
-                "  src=\"https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js\"",
-                "</script>",
-                "",
-                "<!-- Optionally, include the theme (if you don't want to struggleto write the CSS) -->",
-                "<link",
-                "  rel=\"stylesheet\"",
-                "  href=\"https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css\"",
-                "/>",
-                "",
-                "<!-- Prepare a container for your calendar. -->",
-                "<div class=\"calendar\">",
-                "    <!-- Loading stuff -->",
-                "    Loading the data just for you.",
-                "</div>",
-                "",
-                "<script>",
-                "    new GitHubCalendar(\".calendar\", \"your-username\");",
-                "</script>"
-              ]
-          }
-      },
-      "thanks": {
-          "ul": [
-              "Big thanks to [**@izuzak**](https://github.com/izuzak) for creating the [urlreq](https://github.com/izuzak/urlreq) project–the default proxy used by this library. :cake:",
-              "Part of the CSS code was taken from the GitHub profile page to offer the same experience. :art:"
-          ]
-      },
-      "description": [
-          { "p": "Everybody loves GitHub and everybody loves stats. So, why not making the GitHub contributions calendar available for being embeded in your web pages? Now [you can](https://ionicabizau.github.io/github-calendar/example). :tada:" },
-          { "p": "[![](http://i.imgur.com/S1h8XoB.jpg)](https://ionicabizau.github.io/github-calendar/example)" }
+    "example": {
+      "code": {
+        "language": "html",
+        "content": [
+          "<!-- Prepare a container for your calendar. -->",
+          "<script",
+          "  src=\"https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js\"",
+          "</script>",
+          "",
+          "<!-- Optionally, include the theme (if you don't want to struggleto write the CSS) -->",
+          "<link",
+          "  rel=\"stylesheet\"",
+          "  href=\"https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css\"",
+          "/>",
+          "",
+          "<!-- Prepare a container for your calendar. -->",
+          "<div class=\"calendar\">",
+          "    <!-- Loading stuff -->",
+          "    Loading the data just for you.",
+          "</div>",
+          "",
+          "<script>",
+          "    new GitHubCalendar(\".calendar\", \"your-username\");",
+          "</script>"
+        ]
+      }
+    },
+    "thanks": {
+      "ul": [
+        "Big thanks to [**@izuzak**](https://github.com/izuzak) for creating the [urlreq](https://github.com/izuzak/urlreq) project–the default proxy used by this library. :cake:",
+        "Part of the CSS code was taken from the GitHub profile page to offer the same experience. :art:"
       ]
+    },
+    "description": [
+      {
+        "p": "Everybody loves GitHub and everybody loves stats. So, why not making the GitHub contributions calendar available for being embeded in your web pages? Now [you can](http://ionicabizau.github.io/github-calendar/example). :tada:"
+      },
+      {
+        "p": "[![](http://i.imgur.com/S1h8XoB.jpg)](http://ionicabizau.github.io/github-calendar/example)"
+      }
+    ],
+    "name": "github-calendar.js"
   }
 }
