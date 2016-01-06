@@ -13,13 +13,13 @@ Check out the [`dist`](/dist) directory to download the needed files and include
 ```html
 <!-- Prepare a container for your calendar. -->
 <script
-  src="https://cdn.rawgit.com/IonicaBizau/github-calendar/master/dist/github-calendar.min.js"
+  src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"
 </script>
 
 <!-- Optionally, include the theme (if you don't want to struggleto write the CSS) -->
 <link
   rel="stylesheet"
-  href="https://cdn.rawgit.com/IonicaBizau/github-calendar/master/dist/github-calendar.css"
+  href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"
 />
 
 <!-- Prepare a container for your calendar. -->
