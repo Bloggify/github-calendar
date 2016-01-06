@@ -2,16 +2,21 @@
 @import url(https://cdn.rawgit.com/IonicaBizau/bag.css/gh-pages/dist/bag.fixed.css);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.0.0/styles/github.min.css);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/octicons/3.3.0/octicons.css);
+@import url(https://fonts.googleapis.com/css?family=Cutive+Mono);
 
 .bag > h1 {
     text-align: center;
     font-weight: 100;
     font-size: 25px;
-    color: #444;
 }
 
+.monospace {
+    font-family: 'Cutive Mono', monospace !important;
+}
+
+
 body {
-    font-family: monospace;
+    font-family: 'Cutive Mono', monospace;
 }
 
 @media(min-width:992px){.bag.fixed{width: 784px;}}
