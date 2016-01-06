@@ -1,4 +1,4 @@
-# github-calendar [![Support this project][donate-now]][paypal-donations]
+# github-calendar.js [![Support this project][donate-now]][paypal-donations]
 
 Embed your GitHub contributions calendar anywhere.
 
