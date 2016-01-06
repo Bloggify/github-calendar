@@ -52,6 +52,7 @@ Have an idea? Found a bug? See [how to contribute][contributing].
 ## Thanks
 
  - Big thanks to [**@izuzak**](https://github.com/izuzak) for creating the [urlreq](https://github.com/izuzak/urlreq) project–the default proxy used by this library. :cake:
+ - Part of the CSS code was taken from the GitHub profile page to offer the same experience. :art:
 
 ## Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
