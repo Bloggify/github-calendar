@@ -2,15 +2,47 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>GitHub Calendar</title>
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <div class="calendar">
-            <img src="https://assets-cdn.github.com/images/spinners/octocat-spinner-128.gif" class="spinner"/>
-            <p class="spinner-text">Loading <a href="https://github.com/IonicaBizau">@IonicaBizau</a>'s contributions.</p>
+        <div class="bag fixed">
+            <h1>Embed your GitHub contributions calendar anywhere!</h1>
+            <div class="calendar">
+                <img src="https://assets-cdn.github.com/images/spinners/octocat-spinner-128.gif" class="spinner"/>
+                <p class="spinner-text monospace">Crunching <a href="https://github.com/IonicaBizau">@IonicaBizau</a>'s contributions just for you.</p>
+            </div>
+            <script src="../dist/gh-cal-embed.js"></script>
+            <script src="index.js"></script>
+            <p class="monospace">If you want to know more about this project, <a href="https://github.com/IonicaBizau/github-calendar" target="blank">check out the GitHub repository</a>.</p>
+            <p class="monospace">Embed guide &lt;3</p>
+            <pre>
+&lt;!-- Prepare a container for your calendar. --&gt;
+&lt;script
+  src="https://cdn.rawgit.com/IonicaBizau/github-calendar/master/dist/github-calendar.min.js"
+&gt;&lt;/script&gt;
+
+&lt;!-- Optionally, include the theme (if you don't want to struggleto write the CSS) --&gt;
+&lt;link
+  rel="stylesheet"
+  href="https://cdn.rawgit.com/IonicaBizau/github-calendar/master/dist/github-calendar.css"
+/&gt;
+
+&lt;!-- Prepare a container for your calendar. --&gt;
+&lt;div class="calendar"&gt;
+    &lt;!-- Loading stuff --&gt;
+    Loading the data just for you.
+&lt;/div&gt;
+
+&lt;script&gt;
+    new GitHubCalendar(".calendar", "your-username");
+&lt;/script&gt;
+            </pre>
+            <div class="monospace">
+                <span class="octicon octicon-code"></span> with <span class="octicon octicon-heart"></span> &amp; JS by <a href="http://ionicabizau.net">@IonicaBizau</a>
+            </div>
         </div>
-        <script src="../dist/gh-cal-embed.js"></script>
-        <script src="index.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.0.0/highlight.min.js"></script>
+        <script>hljs.highlightBlock(document.querySelector("pre"))</script>
     </body>
 </html>
