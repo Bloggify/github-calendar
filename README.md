@@ -2,6 +2,10 @@
 
 Embed your GitHub contributions calendar anywhere.
 
+Everybody loves GitHub and everybody loves stats. So, why not making the GitHub contributions calendar available for being embeded in your web pages? Now [you can](https://ionicabizau.github.io/github-calendar/example). :tada:
+
+[![](http://i.imgur.com/S1h8XoB.jpg)](https://ionicabizau.github.io/github-calendar/example)
+
 ## Installation
 
 Check out the [`dist`](/dist) directory to download the needed files and include them on your page.
