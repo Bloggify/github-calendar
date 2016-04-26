@@ -1,6 +1,6 @@
 {
   "name": "github-calendar",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Embed your GitHub contributions calendar anywhere.",
   "main": "lib/index.js",
   "directories": {
@@ -85,5 +85,16 @@
         "[...and other goodies...](https://github.com/search?q=user%3AIonicaBizau+github)"
       ]
     }
-  }
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
