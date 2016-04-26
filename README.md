@@ -1,14 +1,26 @@
+
 # github-calendar.js [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/github-calendar.svg)](https://www.npmjs.com/package/github-calendar) [![Downloads](https://img.shields.io/npm/dt/github-calendar.svg)](https://www.npmjs.com/package/github-calendar) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Embed your GitHub contributions calendar anywhere.
 
+
 Everybody<sup><sup>well, haters gonna hate</sup></sup> loves GitHub and everybody loves stats. So, why not making the GitHub contributions calendar available for being embeded in your web pages? Now [you can](https://ionicabizau.github.io/github-calendar/example). :tada:
+
 
 [![](http://i.imgur.com/S1h8XoB.jpg)](https://ionicabizau.github.io/github-calendar/example)
 
-## Installation
+
+## :cloud: Installation
+
 
 Check out the [`dist`](/dist) directory to download the needed files and include them on your page.
+
+If you're using this module in a CommonJS environment, you can install it from `npm` and `require` it:
+
+```sh
+$ npm i --save github-calendar
+```
+
 
 ```html
 <!-- Prepare a container for your calendar. -->
@@ -35,7 +47,9 @@ Check out the [`dist`](/dist) directory to download the needed files and include
 
 [Here](http://jsbin.com/wewihogevu/edit?html,output) you can see this example in action.
 
-## Documentation
+
+## :memo: Documentation
+
 
 ### `GitHubCalendar(container, username, options)`
 Brings the contributions calendar from GitHub (provided username) into your page.
@@ -52,18 +66,18 @@ Brings the contributions calendar from GitHub (provided username) into your page
 #### Return
 - **Promise** A promise returned by the `fetch()` call.
 
-## How to contribute
+
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Thanks
+## :cake: Thanks
 
  - Big thanks to [**@izuzak**](https://github.com/izuzak) for creating the [urlreq](https://github.com/izuzak/urlreq) project–the default proxy used by this library. :cake:
  - Part of the CSS code was taken from the GitHub profile page to offer the same experience. :art:
 
-## Where is this library used?
-If you are using this library in one of your projects, add it in this list. :sparkles:
 
-## Related
+## :sparkles: Related
 
  - [`github-calendar-parser`](https://github.com/IonicaBizau/github-calendar-parser)–Parses the GitHub calendar SVG into JSON.
  - [`github-calendar-legend`](https://github.com/IonicaBizau/github-calendar-legend)–The GitHub contributions calendar colors.
@@ -71,7 +85,9 @@ If you are using this library in one of your projects, add it in this list. :spa
  - [`github-stats`](https://github.com/IonicaBizau/github-stats)–Visualize stats about GitHub users and projects in your terminal.
  - [...and other goodies...](https://github.com/search?q=user%3AIonicaBizau+github)
 
-## License
+
+
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
