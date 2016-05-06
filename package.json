@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "browserify lib/index.js -o dist/github-calendar.min.js -s GitHubCalendar && babel dist/github-calendar.min.js | uglifyjs -c -m -o dist/github-calendar.min.js"
+    "release": "dist-it lib/index.js github-calendar.min.js"
   },
   "repository": {
     "type": "git",
