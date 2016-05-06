@@ -20,6 +20,9 @@
     "embed"
   ],
   "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "contributors": [
+     "Evan Palmer <evjpalmer@gmail.com> (http://evanpalmer.net)"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/IonicaBizau/github-calendar/issues"
