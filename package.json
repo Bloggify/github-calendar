@@ -1,6 +1,6 @@
 {
   "name": "github-calendar",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Embed your GitHub contributions calendar anywhere.",
   "main": "lib/index.js",
   "directories": {
@@ -21,7 +21,7 @@
   ],
   "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
   "contributors": [
-     "Evan Palmer <evjpalmer@gmail.com> (http://evanpalmer.net)"
+    "Evan Palmer <evjpalmer@gmail.com> (http://evanpalmer.net)"
   ],
   "license": "MIT",
   "bugs": {
