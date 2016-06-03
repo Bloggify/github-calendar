@@ -29,7 +29,9 @@
   },
   "homepage": "https://github.com/IonicaBizau/github-calendar#readme",
   "dependencies": {
-    "github-calendar-parser": "^1.0.0"
+    "elly": "^1.0.0",
+    "formatoid": "^1.0.3",
+    "github-calendar-parser": "^1.0.3"
   },
   "blah": {
     "example": [
