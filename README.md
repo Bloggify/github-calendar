@@ -64,6 +64,7 @@ Brings the contributions calendar from GitHub (provided username) into your page
    pull requests, issues opened, and commits made by <username>"`).
  - `proxy` (Function): A function that receives as argument an url (string) and should return the proxied url.
    The default is using [@izuzak](https://github.com/izuzak)'s [`urlreq`](https://github.com/izuzak/urlreq).
+ - `global_stats` (Boolean): If `false`, the global stats (total, longest and current streaks) will not be calculated and displayed. By default this is enabled.
 
 #### Return
 - **Promise** A promise returned by the `fetch()` call.
@@ -79,13 +80,37 @@ Have an idea? Found a bug? See [how to contribute][contributing].
  - Part of the CSS code was taken from the GitHub profile page to offer the same experience. :art:
 
 
+
 ## :sparkles: Related
 
- - [`github-calendar-parser`](https://github.com/IonicaBizau/github-calendar-parser)–Parses the GitHub calendar SVG into JSON.
- - [`github-calendar-legend`](https://github.com/IonicaBizau/github-calendar-legend)–The GitHub contributions calendar colors.
- - [`ghcal`](https://github.com/IonicaBizau/ghcal)–See the GitHub contributions calendar of a user in the command line.
- - [`github-stats`](https://github.com/IonicaBizau/github-stats)–Visualize stats about GitHub users and projects in your terminal.
- - [...and other goodies...](https://github.com/search?q=user%3AIonicaBizau+github)
+ - [`github-profile-languages`](https://github.com/IonicaBizau/github-profile-languages)—Create a nice pie chart with the user's programming languages from their GitHub profile.
+ - [`github-org-members.js`](https://github.com/IonicaBizau/github-org-members.js)—A JavaScript library for fetching and rendering in HTML the members of a GitHub organization.
+ - [`github-contributions`](https://github.com/kubosho/node-github-contributions)—GitHub Contributions API implementation for Node.js (unofficial).
+ - [`github-emojify`](https://github.com/IonicaBizau/github-emojifiy#readme)—Emojify your GitHub repository descriptions.
+ - [`github-stats`](https://github.com/IonicaBizau/github-stats)—Visualize stats about GitHub users and projects in your terminal.
+ - [`github-labeller`](https://github.com/IonicaBizau/github-labeller#readme)—Automagically create issue labels in your GitHub projects.
+ - [`cli-gh-cal`](https://github.com/IonicaBizau/cli-gh-cal)—GitHub like calendar graphs in command line.
+ - [`gh-destroy`](https://github.com/IonicaBizau/gh-destroy#readme)—Delete multiple GitHub repositories.
+ - [`ship-release`](https://github.com/IonicaBizau/ship-release#readme)—Publish new versions on GitHub and npm with ease.
+ - [`github-calendar-legend`](https://github.com/IonicaBizau/github-calendar-legend#readme)—The GitHub contributions calendar colors.
+ - [`github-pr-branch-links`](https://github.com/IonicaBizau/github-pr-branch-links)—Open in a new tab the clicked branch on a pull request page.
+ - [`github-emoji-form-submit`](https://github.com/IonicaBizau/github-emoji-form-submit#readme)—Autocomplete selected Emoji when submitting forms on GitHub.com.
+ - [`gh-repeat`](https://github.com/IonicaBizau/gh-repeat#readme)—Repetitive actions on multiple GitHub repositories.
+ - [`gh-repos`](https://github.com/IonicaBizau/gh-repos#readme)—Get one or all the owner repositories from GitHub.
+ - [`github-old-header`](https://github.com/IonicaBizau/github-old-header)—Brings the old header links back.
+ - [`gh.js`](https://github.com/IonicaBizau/gh.js)—Tiny GitHub API wrapper for server and client.
+ - [`ghcal`](https://github.com/IonicaBizau/ghcal)—See the GitHub contributions calendar of a user in the command line.
+ - [`sort-github-user-repos`](https://github.com/IonicaBizau/sort-github-user-repos#readme)—Sort GitHub repositories by stars for user.
+ - [`github-calendar-parser`](https://github.com/IonicaBizau/github-calendar-parser#readme)—Parses the GitHub contributions calendar SVG code into JSON.
+ - [`gh-notifier`](https://bitbucket.org/IonicaBizau/gh-notifier#readme)—Receive desktop notifications from your GitHub dashboard.
+ - [`octimatch`](https://github.com/IonicaBizau/OctiMatch#readme)—A matching game with GitHub's Octicons.
+ - [`github-portfolio`](https://github.com/IonicaBizau/github-portfolio#readme)—A tool to generate a portfolio using data from your Github projects.
+ - [`gh-polyglot`](https://github.com/IonicaBizau/node-gh-polyglot)—Get language stats about GitHub users and repositories.
+ - [`cli-github`](https://github.com/IonicaBizau/cli-github)—A fancy GitHub client for command line.
+ - [`github-calendar`](https://github.com/IonicaBizau/github-calendar#readme)—Embed your GitHub contributions calendar anywhere.
+ - [`git-stats`](https://github.com/IonicaBizau/git-stats)—Local git statistics including GitHub-like contributions calendars.
+ - [`repository-downloader`](https://github.com/IonicaBizau/repository-downloader)—Download all the repositories from BitBucket and GitHub, including your account, teams and where you created pull requests.
+ - [`github-colors`](https://github.com/IonicaBizau/github-colors)—GitHub colors and file extensions mapping
 
 
 
