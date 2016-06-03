@@ -85,7 +85,7 @@ Have an idea? Found a bug? See [how to contribute][contributing].
 
  - [`github-profile-languages`](https://github.com/IonicaBizau/github-profile-languages)—Create a nice pie chart with the user's programming languages from their GitHub profile.
  - [`github-org-members.js`](https://github.com/IonicaBizau/github-org-members.js)—A JavaScript library for fetching and rendering in HTML the members of a GitHub organization.
- - [`github-contributions`](https://github.com/kubosho/node-github-contributions)—GitHub Contributions API implementation for Node.js (unofficial).
+ - [`gh-contributions`](https://github.com/IonicaBizau/github-contributions)—A tool that generates a repository which being pushed into your GitHub account creates a nice contributions calendar.
  - [`github-emojify`](https://github.com/IonicaBizau/github-emojifiy#readme)—Emojify your GitHub repository descriptions.
  - [`github-stats`](https://github.com/IonicaBizau/github-stats)—Visualize stats about GitHub users and projects in your terminal.
  - [`github-labeller`](https://github.com/IonicaBizau/github-labeller#readme)—Automagically create issue labels in your GitHub projects.
