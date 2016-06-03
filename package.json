@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/IonicaBizau/github-calendar#readme",
   "dependencies": {
+    "add-subtract-date": "^1.0.5",
     "elly": "^1.0.0",
     "formatoid": "^1.0.3",
     "github-calendar-parser": "^1.0.3"
