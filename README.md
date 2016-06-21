@@ -47,7 +47,7 @@ $ npm i --save github-calendar
 </script>
 ```
 
-[Here](http://jsbin.com/wewihogevu/edit?html,output) you can see this example in action.
+[Here](http://codepen.io/anon/pen/aZmjvZ?editors=1000) you can see this example in action.
 
 
 ## :memo: Documentation
