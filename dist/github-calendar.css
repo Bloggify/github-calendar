@@ -114,3 +114,11 @@
 .monospace a:hover {
     text-decoration: underline;
 }
+
+h2.f4.text-normal.mb-3 {
+    display: none;
+}
+
+.float-left.text-gray {
+    float: left;
+}
