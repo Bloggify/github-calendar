@@ -25,7 +25,7 @@ $ npm i --save github-calendar
 
 
 ```html
-<!-- Prepare a container for your calendar. -->
+<!-- Include the library. -->
 <script
   src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js">
 </script>
