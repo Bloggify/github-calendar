@@ -1,6 +1,6 @@
 {
   "name": "github-calendar",
-  "version": "1.1.10",
+  "version": "1.1.11",
   "description": "Embed your GitHub contributions calendar anywhere.",
   "main": "lib/index.js",
   "directories": {
@@ -19,7 +19,7 @@
     "calendar",
     "embed"
   ],
-  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "contributors": [
     "Evan Palmer <evjpalmer@gmail.com> (http://evanpalmer.net)",
     "Francesco Tonini <francescoantoniotonini@gmail.com> (https://francescotonini.it)",
@@ -121,12 +121,11 @@
     "bin/",
     "app/",
     "lib/",
-    "build/",
     "dist/",
     "src/",
+    "scripts/",
     "resources/",
     "menu/",
-    "scripts/",
     "cli.js",
     "index.js"
   ]
