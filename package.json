@@ -1,6 +1,6 @@
 {
   "name": "github-calendar",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Embed your GitHub contributions calendar anywhere.",
   "main": "lib/index.js",
   "directories": {
@@ -62,6 +62,8 @@
             "",
             "<script>",
             "    GitHubCalendar(\".calendar\", \"your-username\");",
+            "    // or enable responsive functionality:",
+            "    GitHubCalendar(\".calendar\", \"your-username\", { responsive: true });",
             "</script>"
           ]
         }
