@@ -48,15 +48,6 @@ Brings the contributions calendar from GitHub (provided username) into your page
  - `global_stats` (Boolean): If `false`, the global stats (total, longest and current streaks) will not be calculated and displayed. By default this is enabled.
  - `responsive` (Boolean): If `true`, the graph is changed to scale with the container. Custom CSS should be applied to the element to scale it appropriately. By default this is disabled.
 
-  Example of using Params:
-```sh
- var calObject = new Object();
- calObject.responsive = true;
-
- GitHubCalendar(container, username, options)
-
-```
- 
 #### Return
 - **Promise** A promise returned by the `fetch()` call.
 
