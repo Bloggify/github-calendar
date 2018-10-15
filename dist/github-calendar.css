@@ -122,3 +122,6 @@ h2.f4.text-normal.mb-3 {
 .float-left.text-gray {
     float: left;
 }
+#user-activity-overview{
+    display:none;
+}
