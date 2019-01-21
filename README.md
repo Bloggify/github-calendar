@@ -41,12 +41,12 @@ Brings the contributions calendar from GitHub (provided username) into your page
 - **String|HTMLElement** `container`: The calendar container (query selector or the element itself).
 - **String** `username`: The GitHub username.
 - **Object** `options`: An object containing the following fields:
- - `summary_text` (String): The text that appears under the calendar (defaults to: `"Summary of
-   pull requests, issues opened, and commits made by <username>"`).
- - `proxy` (Function): A function that receives as argument an url (string) and should return the proxied url.
-   The default is using [@izuzak](https://github.com/izuzak)'s [`urlreq`](https://github.com/izuzak/urlreq).
- - `global_stats` (Boolean): If `false`, the global stats (total, longest and current streaks) will not be calculated and displayed. By default this is enabled.
- - `responsive` (Boolean): If `true`, the graph is changed to scale with the container. Custom CSS should be applied to the element to scale it appropriately. By default this is disabled.
+   - `summary_text` (String): The text that appears under the calendar (defaults to: `"Summary of
+     pull requests, issues opened, and commits made by <username>"`).
+   - `proxy` (Function): A function that receives as argument an url (string) and should return the proxied url.
+     The default is using [@izuzak](https://github.com/izuzak)'s [`urlreq`](https://github.com/izuzak/urlreq).
+   - `global_stats` (Boolean): If `false`, the global stats (total, longest and current streaks) will not be calculated and displayed. By default this is enabled.
+   - `responsive` (Boolean): If `true`, the graph is changed to scale with the container. Custom CSS should be applied to the element to scale it appropriately. By default this is disabled.
 
 #### Return
 - **Promise** A promise returned by the `fetch()` call.
@@ -64,6 +64,7 @@ this takes time. You can integrate and use these projects in your applications *
 
 However, if you get some profit from this or just want to encourage me to continue creating stuff, there are few ways you can do it:
 
+
  - Starring and sharing the projects you like :rocket:
  - [![Buy me a book][badge_amazon]][amazon]—I love books! I will remember you after years if you buy me one. :grin: :book:
  - [![PayPal][badge_paypal]][paypal-donations]—You can make one-time donations via PayPal. I'll probably buy a ~~coffee~~ tea. :tea:
@@ -71,6 +72,7 @@ However, if you get some profit from this or just want to encourage me to contin
  - **Bitcoin**—You can send me bitcoins at this address (or scanning the code below): `1P9BRsmazNQcuyTxEqveUsnf5CERdq35V6`
 
     ![](https://i.imgur.com/z6OQI95.png)
+
 
 Thanks! :heart:
 
@@ -119,14 +121,15 @@ Thanks! :heart:
 
 [MIT][license] © [Ionică Bizău][website]
 
-[badge_patreon]: http://ionicabizau.github.io/badges/patreon.svg
-[badge_amazon]: http://ionicabizau.github.io/badges/amazon.svg
-[badge_paypal]: http://ionicabizau.github.io/badges/paypal.svg
-[badge_paypal_donate]: http://ionicabizau.github.io/badges/paypal_donate.svg
+
+[badge_patreon]: https://ionicabizau.github.io/badges/patreon.svg
+[badge_amazon]: https://ionicabizau.github.io/badges/amazon.svg
+[badge_paypal]: https://ionicabizau.github.io/badges/paypal.svg
+[badge_paypal_donate]: https://ionicabizau.github.io/badges/paypal_donate.svg
+
 [patreon]: https://www.patreon.com/ionicabizau
 [amazon]: http://amzn.eu/hRo9sIZ
 [paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RVXDDLKKLQRJW
-[donate-now]: http://i.imgur.com/6cMbHOC.png
 
 [license]: http://showalicense.com/?fullname=Ionic%C4%83%20Biz%C4%83u%20%3Cbizauionica%40gmail.com%3E%20(https%3A%2F%2Fionicabizau.net)&year=2016#license-mit
 [website]: https://ionicabizau.net
