@@ -1,5 +1,5 @@
-@import url(../../dist/github-calendar.css);
-@import url(https://cdn.rawgit.com/IonicaBizau/bag.css/gh-pages/dist/bag.fixed.css);
+@import url(../../dist/github-calendar-responsive.css);
+@import url(https://unpkg.com/bag.css@1.0.12/dist/bag.fixed.css);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.0.0/styles/github.min.css);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/octicons/3.3.0/octicons.css);
 @import url(https://fonts.googleapis.com/css?family=Cutive+Mono);

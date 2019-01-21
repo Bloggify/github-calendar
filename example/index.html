@@ -21,13 +21,13 @@
             <pre>
 &lt;!-- Include the library. --&gt;
 &lt;script
-  src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"
+  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
 &gt;&lt;/script&gt;
 
 &lt;!-- Optionally, include the theme (if you don't want to struggle to write the CSS) --&gt;
 &lt;link
-  rel="stylesheet"
-  href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"
+   rel="stylesheet"
+   href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
 /&gt;
 
 &lt;!-- Prepare a container for your calendar. --&gt;
@@ -38,6 +38,8 @@
 
 &lt;script&gt;
     GitHubCalendar(".calendar", "your-username");
+    // or enable responsive functionality
+    GitHubCalendar(".calendar", "your-username", { responsive: true });
 &lt;/script&gt;
             </pre>
             <div class="monospace with-heart">
