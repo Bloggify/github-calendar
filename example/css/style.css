@@ -37,3 +37,7 @@ pre {
 p {
     color: #444444;
 }
+
+.calendar-responsive {
+    width: auto;
+}
