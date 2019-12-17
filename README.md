@@ -1,26 +1,6 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # github-calendar
 
 Embed your GitHub contributions calendar anywhere.
-
-
-
 
 ## Installation
 
@@ -28,26 +8,12 @@ Embed your GitHub contributions calendar anywhere.
 $ npm i github-calendar
 ```
 
+## Example
+[See an example here](https://ionicabizau.github.io/github-calendar/example/)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+[![example](https://user-images.githubusercontent.com/1134310/70142321-e0276000-1690-11ea-96f4-e3a460e9358e.png)](https://ionicabizau.github.io/github-calendar/example/)
 
 ## Documentation
-
-
-
-
 
 ### `GitHubCalendar(container, username, options)`
 Brings the contributions calendar from GitHub (provided username) into your page.
