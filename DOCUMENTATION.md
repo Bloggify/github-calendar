@@ -6,6 +6,7 @@ You can see below the API reference of this module.
 Brings the contributions calendar from GitHub (provided username) into your page.
 
 #### Params
+
 - **String|HTMLElement** `container`: The calendar container (query selector or the element itself).
 - **String** `username`: The GitHub username.
 - **Object** `options`: An object containing the following fields:
