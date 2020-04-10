@@ -61,6 +61,6 @@ Thanks! :sweat_smile:
 
 
 
-[1]: https://github.com/IonicaBizau/github-calendar/issues
+[1]: https://github.com/Bloggify/github-calendar/issues
 
 [2]: https://github.com/IonicaBizau/code-style
