@@ -52,8 +52,12 @@ yarn add github-calendar
 
 <script>
     GitHubCalendar(".calendar", "your-username");
+
     // or enable responsive functionality:
     GitHubCalendar(".calendar", "your-username", { responsive: true });
+
+    // Use a proxy
+    GitHubCalendar(".calendar", "your-username", { proxy (username) { return fetch(`https://your-proxy.com/github?user=${username}`).then(r => r.text()) });
 </script>
 ```
 
@@ -87,10 +91,11 @@ Brings the contributions calendar from GitHub (provided username) into your page
 - **Object** `options`: An object containing the following fields:
    - `summary_text` (String): The text that appears under the calendar (defaults to: `"Summary of
      pull requests, issues opened, and commits made by <username>"`).
-   - `proxy` (Function): A function that receives as argument an url (string) and should return the proxied url.
-     The default is using [@izuzak](https://github.com/izuzak)'s [`urlreq`](https://github.com/izuzak/urlreq).
+   - `proxy` (Function): A function that receives as argument the username (string) and should return a promise resolving the HTML content of the contributions page.
+     The default is using @Bloggify's APIs.
    - `global_stats` (Boolean): If `false`, the global stats (total, longest and current streaks) will not be calculated and displayed. By default this is enabled.
    - `responsive` (Boolean): If `true`, the graph is changed to scale with the container. Custom CSS should be applied to the element to scale it appropriately. By default this is disabled.
+   - `cache` (Number) The cache time in seconds.
 
 #### Return
 - **Promise** A promise returned by the `fetch()` call.
@@ -119,12 +124,6 @@ However, if you get some profit from this or just want to encourage me to contin
 
 
 Thanks! :heart:
-
-
-## :cake: Thanks
-
- - Big thanks to [**@izuzak**](https://github.com/izuzak) for creating the [urlreq](https://github.com/izuzak/urlreq) project–the default proxy used by this library. :cake:
- - Part of the CSS code was taken from the GitHub profile page to offer the same experience. :art:
 
 
 
