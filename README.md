@@ -8,10 +8,10 @@
 > Embed your GitHub contributions calendar anywhere.
 
 
-Everybody<sup><sup>well, haters gonna hate</sup></sup> loves GitHub and everybody loves stats. So, why not making the GitHub contributions calendar available for being embeded in your web pages? Now [you can](https://ionicabizau.github.io/github-calendar/example). :tada:
+Everybody<sup><sup>well, haters gonna hate</sup></sup> loves GitHub and everybody loves stats. So, why not making the GitHub contributions calendar available for being embeded in your web pages? Now [you can](https://bloggify.github.io/github-calendar/example). :tada:
 
 
-[![](http://i.imgur.com/S1h8XoB.jpg)](https://ionicabizau.github.io/github-calendar/example)
+[![](https://i.imgur.com/tJjRpuN.png)](https://bloggify.github.io/github-calendar/example)
 
 
 ## :cloud: Installation
