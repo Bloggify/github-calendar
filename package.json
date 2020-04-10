@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/IonicaBizau/github-calendar.git"
+    "url": "git+ssh://git@github.com/Bloggify/github-calendar.git"
   },
   "keywords": [
     "github",
     "calendar",
     "embed"
   ],
-  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
+  "author": "Bloggify <support@bloggify.org> (https://bloggify.org)",
   "contributors": [
     "Evan Palmer <evjpalmer@gmail.com> (http://evanpalmer.net)",
     "Francesco Tonini <francescoantoniotonini@gmail.com> (https://francescotonini.it)",
@@ -30,9 +30,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/IonicaBizau/github-calendar/issues"
+    "url": "https://github.com/Bloggify/github-calendar/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/github-calendar#readme",
+  "homepage": "https://github.com/Bloggify/github-calendar#readme",
   "dependencies": {
     "add-subtract-date": "^1.0.5",
     "elly": "^1.0.0",
