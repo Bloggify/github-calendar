@@ -63,8 +63,12 @@
             "",
             "<script>",
             "    GitHubCalendar(\".calendar\", \"your-username\");",
+            "",
             "    // or enable responsive functionality:",
             "    GitHubCalendar(\".calendar\", \"your-username\", { responsive: true });",
+            "",
+            "    // Use a proxy",
+            "    GitHubCalendar(\".calendar\", \"your-username\", { proxy (username) { return fetch(`https://your-proxy.com/github?user=${username}`).then(r => r.text()) });",
             "</script>"
           ]
         }
@@ -73,12 +77,6 @@
         "p": "[Here](http://codepen.io/anon/pen/aZmjvZ?editors=1000) you can see this example in action."
       }
     ],
-    "thanks": {
-      "ul": [
-        "Big thanks to [**@izuzak**](https://github.com/izuzak) for creating the [urlreq](https://github.com/izuzak/urlreq) project–the default proxy used by this library. :cake:",
-        "Part of the CSS code was taken from the GitHub profile page to offer the same experience. :art:"
-      ]
-    },
     "description": [
       {
         "p": "Everybody<sup><sup>well, haters gonna hate</sup></sup> loves GitHub and everybody loves stats. So, why not making the GitHub contributions calendar available for being embeded in your web pages? Now [you can](https://ionicabizau.github.io/github-calendar/example). :tada:"
