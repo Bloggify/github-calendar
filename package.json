@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "dist-it lib/index.js github-calendar.min.js"
+    "release": "dist-it lib/index.js github-calendar.min.js",
+    "build": "dist-it lib/index.js github-calendar.min.js --no-uglify --no-commit"
   },
   "repository": {
     "type": "git",
