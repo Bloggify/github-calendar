@@ -16,6 +16,7 @@ Brings the contributions calendar from GitHub (provided username) into your page
      The default is using @Bloggify's APIs.
    - `global_stats` (Boolean): If `false`, the global stats (total, longest and current streaks) will not be calculated and displayed. By default this is enabled.
    - `responsive` (Boolean): If `true`, the graph is changed to scale with the container. Custom CSS should be applied to the element to scale it appropriately. By default this is disabled.
+   - `tooltips` (Boolean): If `true`, tooltips will be shown when hovered over calendar days. By default this is disabled.
    - `cache` (Number) The cache time in seconds.
 
 #### Return
