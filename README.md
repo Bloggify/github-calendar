@@ -57,7 +57,7 @@ yarn add github-calendar
     GitHubCalendar(".calendar", "your-username", { responsive: true });
 
     // Use a proxy
-    GitHubCalendar(".calendar", "your-username", { proxy (username) { return fetch(`https://your-proxy.com/github?user=${username}`).then(r => r.text()) });
+    GitHubCalendar(".calendar", "your-username", { proxy (username) { return fetch(`https://your-proxy.com/github?user=${username}`).then(r => r.text()) }});
 </script>
 ```
 
