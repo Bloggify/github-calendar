@@ -1,6 +1,6 @@
 {
   "name": "github-calendar",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "description": "Embed your GitHub contributions calendar anywhere.",
   "main": "lib/index.js",
   "directories": {
@@ -69,7 +69,11 @@
             "    GitHubCalendar(\".calendar\", \"your-username\", { responsive: true });",
             "",
             "    // Use a proxy",
-            "    GitHubCalendar(\".calendar\", \"your-username\", { proxy (username) { return fetch(`https://your-proxy.com/github?user=${username}`).then(r => r.text()) });",
+            "    GitHubCalendar(\".calendar\", \"your-username\", {",
+            "       proxy (username) {",
+            "         return fetch(`https://your-proxy.com/github?user=${username}`)",
+            "       }",
+            "    }).then(r => r.text())",
             "</script>"
           ]
         }
