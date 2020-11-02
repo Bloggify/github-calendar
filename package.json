@@ -1,6 +1,6 @@
 {
   "name": "github-calendar",
-  "version": "2.2.3",
+  "version": "2.2.4",
   "description": "Embed your GitHub contributions calendar anywhere.",
   "main": "lib/index.js",
   "directories": {
