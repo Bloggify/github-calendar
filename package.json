@@ -1,6 +1,6 @@
 {
   "name": "github-calendar",
-  "version": "2.2.4",
+  "version": "2.2.5",
   "description": "Embed your GitHub contributions calendar anywhere.",
   "main": "lib/index.js",
   "directories": {
@@ -79,7 +79,7 @@
         }
       },
       {
-        "p": "[Here](http://codepen.io/anon/pen/aZmjvZ?editors=1000) you can see this example in action."
+        "p": "[Here](https://bloggify.github.io/github-calendar/example/) you can see this example in action."
       }
     ],
     "description": [
