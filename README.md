@@ -117,7 +117,7 @@ yarn add github-calendar
 ```
 
 
-[Here](http://codepen.io/anon/pen/aZmjvZ?editors=1000) you can see this example in action.
+[Here](https://bloggify.github.io/github-calendar/example/) you can see this example in action.
 
 
 
