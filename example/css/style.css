@@ -37,3 +37,11 @@ pre {
 p {
     color: #444444;
 }
+
+img.spinner {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    height: 49px;
+    padding: 40px 0;
+}

@@ -34,10 +34,10 @@
   },
   "homepage": "https://github.com/Bloggify/github-calendar#readme",
   "dependencies": {
-    "add-subtract-date": "^1.0.5",
-    "elly": "^1.0.0",
-    "formatoid": "^1.0.3",
-    "github-calendar-parser": "^1.1.3"
+    "add-subtract-date": "^1.0.15",
+    "elly": "^1.1.11",
+    "formatoid": "^1.2.4",
+    "github-calendar-parser": "^1.1.12"
   },
   "blah": {
     "example": [
