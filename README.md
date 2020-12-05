@@ -199,6 +199,7 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `@axetroy/react-github-calendar`
  - `github-alike-calendar`
  - `@philipwhiuk/react-github-calendar`
+ - `react-ts-github-calendar`
 
 
 
