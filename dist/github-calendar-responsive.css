@@ -6,6 +6,30 @@
   --color-calendar-graph-day-L4-bg: #0a4208;
 }
 
+rect.ContributionCalendar-day[data-level='0'] {
+    fill: var(--color-calendar-graph-day-bg);
+}
+
+rect.ContributionCalendar-day[data-level='1'] {
+    fill: var(--color-calendar-graph-day-L1-bg);
+}
+
+rect.ContributionCalendar-day[data-level='2'] {
+    fill: var(--color-calendar-graph-day-L2-bg);
+}
+
+rect.ContributionCalendar-day[data-level='3'] {
+    fill: var(--color-calendar-graph-day-L3-bg);
+}
+
+rect.ContributionCalendar-day[data-level='4'] {
+    fill: var(--color-calendar-graph-day-L4-bg);
+}
+
+.calendar .width-full > .float-left {
+    display: none;
+}
+
 .calendar {
     font-family: Helvetica, arial;
     border: 1px solid #DDDDDD;
@@ -162,4 +186,9 @@ h2.f4.text-normal.mb-3 {
     content: " ";
     border: 5px solid transparent;
     border-top-color: rgba(0,0,0,.85)
+}
+
+text.ContributionCalendar-label {
+    fill: #ccc;
+    font-size: 11px;
 }
