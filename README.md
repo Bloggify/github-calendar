@@ -196,11 +196,12 @@ Have an idea? Found a bug? See [how to contribute][contributing].
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
  - `@pengliheng/github-report`
- - `@axetroy/react-github-calendar`
  - `github-alike-calendar`
- - `@philipwhiuk/react-github-calendar`
- - `github-calendar-web-component`
+ - `@axetroy/react-github-calendar`
  - `react-ts-github-calendar`
+ - `github-calendar-element`
+ - `github-calendar-web-component`
+ - `@philipwhiuk/react-github-calendar`
 
 
 
