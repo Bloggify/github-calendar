@@ -202,6 +202,7 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `github-calendar-element`
  - `github-calendar-web-component`
  - `@philipwhiuk/react-github-calendar`
+ - `@totoroot/hugo-github-calendar`
 
 
 
