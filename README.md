@@ -196,12 +196,15 @@ Have an idea? Found a bug? See [how to contribute][contributing].
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
  - `@pengliheng/github-report`
+ - `@jiratki/gatsby-theme-minimal-portfolio`
  - `github-alike-calendar`
- - `@axetroy/react-github-calendar`
  - `react-ts-github-calendar`
+ - `@axetroy/react-github-calendar`
+ - `@dotnetthailand/gatsby-theme-minimal-portfolio`
  - `github-calendar-element`
- - `github-calendar-web-component`
+ - `github-contributions-react`
  - `@philipwhiuk/react-github-calendar`
+ - `github-calendar-web-component`
 
 
 
