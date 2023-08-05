@@ -1,142 +1,36 @@
 {
-  "name": "github-calendar",
-  "version": "2.2.9",
-  "description": "Embed your GitHub contributions calendar anywhere.",
-  "main": "lib/index.js",
-  "directories": {
-    "example": "example"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "dist-it lib/index.js github-calendar.min.js",
-    "build": "dist-it lib/index.js github-calendar.min.js --no-uglify --no-commit"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/Bloggify/github-calendar.git"
-  },
-  "keywords": [
-    "github",
-    "calendar",
-    "embed"
-  ],
-  "author": "Bloggify <support@bloggify.org> (https://bloggify.org)",
-  "contributors": [
-    "Evan Palmer <evjpalmer@gmail.com> (http://evanpalmer.net)",
-    "Francesco Tonini <francescoantoniotonini@gmail.com> (https://francescotonini.it)",
-    "Miroslav Vidovic <miroslav-vidovic@hotmail.com>",
-    "Mike Roibu <mike@codingden.net>",
-    "Rohit Rathi <rathirohitg1997@gmail.com> (https://rathirohit.github.io)",
-    "Wang Pengfei <pengfeixc@sina.com> (https://pengfeixc.com)"
-  ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Bloggify/github-calendar/issues"
-  },
-  "homepage": "https://github.com/Bloggify/github-calendar#readme",
-  "dependencies": {
-    "elly": "^1.1.11",
-    "formatoid": "^1.2.4",
-    "github-calendar-parser": "^1.1.13"
-  },
-  "blah": {
-    "example": [
-      {
-        "code": {
-          "language": "html",
-          "content": [
-            "<!-- Include the library. -->",
-            "<script",
-            "  src=\"https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js\">",
-            "</script>",
-            "",
-            "<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->",
-            "<link",
-            "  rel=\"stylesheet\"",
-            "  href=\"https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css\"",
-            "/>",
-            "",
-            "<!-- Prepare a container for your calendar. -->",
-            "<div class=\"calendar\">",
-            "    <!-- Loading stuff -->",
-            "    Loading the data just for you.",
-            "</div>",
-            "",
-            "<script>",
-            "    GitHubCalendar(\".calendar\", \"your-username\");",
-            "",
-            "    // or enable responsive functionality:",
-            "    GitHubCalendar(\".calendar\", \"your-username\", { responsive: true });",
-            "",
-            "    // Use a proxy",
-            "    GitHubCalendar(\".calendar\", \"your-username\", {",
-            "       proxy (username) {",
-            "         return fetch(`https://your-proxy.com/github?user=${username}`)",
-            "       }",
-            "    }).then(r => r.text())",
-            "</script>"
-          ]
-        }
-      },
-      {
-        "p": "[Here](https://bloggify.github.io/github-calendar/example/) you can see this example in action."
-      }
+    "name": "github-calendar",
+    "version": "2.3.0",
+    "description": "Embed your GitHub contributions calendar anywhere.",
+    "main": "lib/index.js",
+    "directories": {
+        "example": "example"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "release": "dist-it lib/index.js github-calendar.min.js",
+        "build": "dist-it lib/index.js github-calendar.min.js --no-uglify --no-commit"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/franznkemaka/github-calendar.git"
+    },
+    "keywords": [
+        "github",
+        "calendar",
+        "embed"
     ],
-    "description": [
-      {
-        "p": "Everybody<sup><sup>well, haters gonna hate</sup></sup> loves GitHub and everybody loves stats. So, why not making the GitHub contributions calendar available for being embeded in your web pages? Now [you can](https://bloggify.github.io/github-calendar/example). :tada:"
-      },
-      {
-        "p": "[![](https://i.imgur.com/tJjRpuN.png)](https://bloggify.github.io/github-calendar/example)"
-      }
+    "contributors": [
+        "Bloggify <support@bloggify.org> (https://bloggify.org)",
+        "Evan Palmer <evjpalmer@gmail.com> (http://evanpalmer.net)",
+        "Francesco Tonini <francescoantoniotonini@gmail.com> (https://francescotonini.it)",
+        "Miroslav Vidovic <miroslav-vidovic@hotmail.com>",
+        "Mike Roibu <mike@codingden.net>",
+        "Rohit Rathi <rathirohitg1997@gmail.com> (https://rathirohit.github.io)",
+        "Wang Pengfei <pengfeixc@sina.com> (https://pengfeixc.com)"
     ],
-    "title": "github-calendar.js",
-    "related": {
-      "ul": [
-        "github-profile-languages",
-        "github-org-members.js",
-        "gh-contributions",
-        "github-emojify",
-        "github-stats",
-        "github-labeller",
-        "cli-gh-cal",
-        "gh-destroy",
-        "ship-release",
-        "github-calendar-legend",
-        "github-pr-branch-links",
-        "github-emoji-form-submit",
-        "gh-repeat",
-        "gh-repos",
-        "github-old-header",
-        "gh.js",
-        "ghcal",
-        "sort-github-user-repos",
-        "github-calendar-parser",
-        "gh-notifier",
-        "octimatch",
-        "github-portfolio",
-        "gh-polyglot",
-        "cli-github",
-        "github-calendar",
-        "git-stats",
-        "repository-downloader",
-        "github-colors"
-      ]
+    "license": "MIT",
+    "dependencies": {
+        "formatoid": "^1.2.4"
     }
-  },
-  "files": [
-    "bin/",
-    "app/",
-    "lib/",
-    "dist/",
-    "src/",
-    "scripts/",
-    "resources/",
-    "menu/",
-    "cli.js",
-    "index.js",
-    "bloggify.js",
-    "bloggify.json",
-    "bloggify/"
-  ]
 }
