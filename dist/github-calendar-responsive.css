@@ -90,6 +90,7 @@ rect.ContributionCalendar-day[data-level='4'] {
 }
 
 .table-column {
+    box-sizing: border-box;
     display: table-cell;
     width: 1%;
     padding-right: 10px;
@@ -191,4 +192,11 @@ h2.f4.text-normal.mb-3 {
 text.ContributionCalendar-label {
     fill: #ccc;
     font-size: 11px;
+}
+
+@media screen and (max-width: 768px) {
+    .table-column {
+        display: block;
+        width: 100%;
+    }
 }
