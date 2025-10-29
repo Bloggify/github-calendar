@@ -28,6 +28,7 @@
 
 table.ContributionCalendar-grid {
     margin-bottom: 0pt;
+    border-collapse: separate;
 }
 
 table.ContributionCalendar-grid td {
